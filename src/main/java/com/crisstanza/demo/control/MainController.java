@@ -15,8 +15,8 @@ public final class MainController {
     @GetMapping(path = Endpoints.HEALTH)
     public String health() {
         return """
-            { "status": "ok" }
-        """;
+                    { "status": "ok" }
+                """;
     }
 
 }
